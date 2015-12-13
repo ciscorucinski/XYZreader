@@ -1,4 +1,4 @@
-package com.example.xyzreader.ui;
+package com.udacity.ciscorucinski.xyzreader.ui;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -16,9 +16,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowInsets;
 
-import com.example.xyzreader.R;
-import com.example.xyzreader.data.ArticleLoader;
-import com.example.xyzreader.data.ItemsContract;
+import com.udacity.ciscorucinski.xyzreader.R;
+import com.udacity.ciscorucinski.xyzreader.data.ArticleLoader;
+import com.udacity.ciscorucinski.xyzreader.data.ItemsContract;
 
 /**
  * An activity representing a single Article detail screen, letting you swipe between articles.

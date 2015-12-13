@@ -1,4 +1,4 @@
-package com.example.xyzreader.data;
+package com.udacity.ciscorucinski.xyzreader.data;
 
 import android.net.Uri;
 

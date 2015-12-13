@@ -1,4 +1,4 @@
-package com.example.xyzreader.ui;
+package com.udacity.ciscorucinski.xyzreader.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
