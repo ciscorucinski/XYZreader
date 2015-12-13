@@ -18,6 +18,18 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/xyz_500</item>
+        <item name="colorPrimaryDark">@color/xyz_700</item>
+        <item name="colorAccent">@color/xyz_500</item>
+
+        <!--v21+-->
+        <!--<item name="android:colorPrimary">?attr/colorPrimary</item>-->
+        <!--<item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>-->
+        <!--<item name="android:colorAccent">?attr/colorAccent</item>-->
+
+        <!--<item name="android:textColorPrimaryInverse">@color/primary_text_light</item>-->
+        <!--<item name="android:textColorPrimary">@color/primary_text</item>-->
+        <!--<item name="android:textColorSecondary">@color/secondary_text</item>-->
 
     </style>
 

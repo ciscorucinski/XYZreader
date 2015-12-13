@@ -1,25 +1,40 @@
-<!-- File created by the Android Action Bar Style Generator
-
-     Copyright (C) 2012 readyState Software Ltd
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-  
-          http://www.apache.org/licenses/LICENSE-2.0
-  
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="photo_placeholder">#ccc</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+    <!-- Base Material Colors; app specific -->
+    <color name="xyz_100">#FCDACF</color>
+    <color name="xyz_200">#F8B29B</color>
+    <color name="xyz_300">#F37E58</color>
+    <color name="xyz_400">#F1683C</color>
+    <color name="xyz_500">#EF521F</color>
+    <color name="xyz_600">#DF4310</color>
+    <color name="xyz_700">#C33A0E</color>
+    <color name="xyz_800">#A6320C</color>
+    <color name="xyz_900">#8A290A</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="black">#000000</color>
+
+    <!-- Material Specific Text on Light BG -->
+    <color name="primaryTextColor">#DE000000</color>
+    <color name="secondaryTextColor">#8A000000</color>
+    <color name="iconColor">#8A000000</color>
+    <color name="disabledTextColor">#61000000</color>
+    <color name="hintTextColor">#61000000</color>
+    <color name="dividerColor">#1F000000</color>
+
+    <!-- Others -->
+    <color name="photo_placeholder">@color/xyz_200</color>
     <color name="ltgray">#ffe0e0e0</color>
+
 </resources>
