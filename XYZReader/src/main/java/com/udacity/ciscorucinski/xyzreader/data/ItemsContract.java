@@ -4,7 +4,7 @@ import android.net.Uri;
 
 public class ItemsContract {
 	public static final String CONTENT_AUTHORITY = "com.udacity.ciscorucinski.xyzreader";
-	public static final Uri BASE_URI = Uri.parse("content://com.udacity.ciscorucinski.xyzreader");
+	private static final Uri BASE_URI = Uri.parse("content://com.udacity.ciscorucinski.xyzreader");
 
 	interface ItemsColumns {
 		/** Type: INTEGER PRIMARY KEY AUTOINCREMENT */
