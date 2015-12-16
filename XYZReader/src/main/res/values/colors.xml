@@ -35,6 +35,5 @@
 
     <!-- Others -->
     <color name="photo_placeholder">@color/xyz_200</color>
-    <color name="ltgray">#ffe0e0e0</color>
 
 </resources>
