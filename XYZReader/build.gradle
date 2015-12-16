@@ -35,6 +35,8 @@ dependencies {
 
     compile 'com.squareup.okhttp:okhttp:1.1.0'
 
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
     compile files('libs/volley.jar')
 
 }
