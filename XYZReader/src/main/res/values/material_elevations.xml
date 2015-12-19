@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ButtonFlat_Resting">0dp</dimen>
+    <dimen name="ButtonFlat_Pressed">0dp</dimen>
+
+    <dimen name="Switch">1dp</dimen>
+
+    <dimen name="Card_Resting">2dp</dimen>
+    <dimen name="Paper_Resting">2dp</dimen>
+    <dimen name="ButtonRaised_Resting">2dp</dimen>
+    <dimen name="QuickEntry">2dp</dimen>
+    <dimen name="SearchBar_Resting">2dp</dimen>
+
+    <dimen name="RefreshIndicator">3dp</dimen>
+    <dimen name="QuickEntry_Scrolled">3dp</dimen>
+    <dimen name="SearchBar_Scrolled">3dp</dimen>
+
+    <dimen name="AppBar">4dp</dimen>
+
+    <dimen name="FAB_Resting">6dp</dimen>
+    <dimen name="SnackBar">6dp</dimen>
+
+    <dimen name="Menu">8dp</dimen>
+    <dimen name="Card_Up">8dp</dimen>
+    <dimen name="Paper_Pressed">8dp</dimen>
+    <dimen name="ButtonRaised_Pressed">8dp</dimen>
+
+    <dimen name="SubMenu">9dp</dimen>
+    <dimen name="SubMenu_2">10dp</dimen>
+    <dimen name="SubMenu_3">11dp</dimen>
+    <dimen name="SubMenu_4">12dp</dimen>
+
+    <dimen name="FAB_Pressed">12dp</dimen>
+
+    <dimen name="NavigationDrawer">16dp</dimen>
+    <dimen name="RightDrawer">16dp</dimen>
+    <dimen name="BottomSheetModal">16dp</dimen>
+
+    <dimen name="Dialog">24dp</dimen>
+    <dimen name="Picker">24dp</dimen>
+
+</resources>

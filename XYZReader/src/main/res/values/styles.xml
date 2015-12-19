@@ -17,11 +17,170 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.XYZ" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/xyz_500</item>
         <item name="colorPrimaryDark">@color/xyz_700</item>
         <item name="colorAccent">@color/xyz_500</item>
 
     </style>
+
+    <!-- This approach below worked for the first activity, but not the second one. Styles work, but they are not being applied, so I am not using them currently. Leaving code here though -->
+
+    <!---->
+    <!--&lt;!&ndash; TEXT &ndash;&gt;-->
+    <!--<style name="XYZ.AppCompat.TextAppearance.Card.Primary" parent="@style/TextAppearance.AppCompat.Subhead">-->
+        <!--<item name="android:textColor">@color/primaryTextColor</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.TextAppearance.Card.Secondary" parent="@style/TextAppearance.AppCompat.Body1">-->
+        <!--<item name="android:textColor">@color/secondaryTextColor</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.TextAppearance.Article.Body" parent="@style/TextAppearance.AppCompat.Body2">-->
+        <!--<item name="android:textColor">@color/primaryTextColor</item>-->
+        <!--<item name="android:textColorLink">?attr/colorAccent</item>-->
+        <!--<item name="android:lineSpacingMultiplier">@fraction/detail_body_line_spacing_multiplier</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.TextAppearance.Article.Detail.Primary" parent="Empty">-->
+        <!--<item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.TextAppearance.Article.Detail.Secondary" parent="TextAppearance.AppCompat.Caption">-->
+        <!--<item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
+    <!--</style>-->
+
+
+    <!--&lt;!&ndash; VIEWS &ndash;&gt;-->
+
+    <!--&lt;!&ndash; This is a hack to simplify Inheritance. This allows to avoid creating numerous previous chained declarations that will be empty &ndash;&gt;-->
+    <!--<style name="Empty"/>-->
+    <!--<style name="Paper"/>-->
+    <!--<style name="Action"/>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Card" parent="Paper">-->
+        <!--<item name="android:layout_marginLeft">4dp</item>-->
+        <!--<item name="android:layout_marginRight">4dp</item>-->
+        <!--<item name="android:layout_marginTop">4dp</item>-->
+        <!--<item name="android:layout_marginBottom">4dp</item>-->
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:focusable">true</item>-->
+        <!--<item name="android:foreground">?selectableItemBackground</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Card.Layout" parent="Empty">-->
+        <!--<item name="android:orientation">vertical</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Card.Image" parent="Empty">-->
+        <!--<item name="android:background">@color/photo_placeholder</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Card.Text" parent="Empty">-->
+        <!--<item name="android:paddingTop">16dp</item>-->
+        <!--<item name="android:paddingBottom">16dp</item>-->
+        <!--<item name="android:paddingStart">16dp</item>-->
+        <!--<item name="android:paddingEnd">16dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Card.Text.Primary">-->
+        <!--<item name="android:paddingBottom">4dp</item>-->
+        <!--<item name="android:ellipsize">end</item>-->
+        <!--<item name="android:maxLines">4</item>-->
+        <!--<item name="android:textAppearance">@style/XYZ.AppCompat.TextAppearance.Card.Primary</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Card.Text.Secondary">-->
+        <!--<item name="android:paddingTop">0dp</item>-->
+        <!--<item name="android:maxLines">1</item>-->
+        <!--<item name="android:singleLine">true</item>-->
+        <!--<item name="android:ellipsize">end</item>-->
+        <!--<item name="android:textAppearance">@style/XYZ.AppCompat.TextAppearance.Card.Secondary-->
+        <!--</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Toolbar.Paper" parent="Paper"/>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">-->
+        <!--<item name="android:layout_marginLeft">@dimen/list_toolbar_side_margin</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/list_toolbar_side_margin</item>-->
+        <!--<item name="android:layout_gravity">bottom</item>-->
+        <!--<item name="layout_scrollFlags">scroll|enterAlways</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Toolbar.Logo" parent="Empty">-->
+        <!--<item name="android:contentDescription">@string/app_name</item>-->
+        <!--<item name="android:src">@drawable/logo</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List.Swipeable" parent="Action">-->
+        <!--<item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.List" parent="Paper">-->
+        <!--<item name="android:clipToPadding">false</item>-->
+        <!--<item name="android:scrollbarStyle">outsideOverlay</item>-->
+        <!--<item name="android:paddingLeft">@dimen/list_side_margin</item>-->
+        <!--<item name="android:paddingRight">@dimen/list_side_margin</item>-->
+        <!--<item name="android:paddingBottom">28dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Swipeable.LR" parent="Action"/>-->
+    <!--<style name="XYZ.AppCompat.Article.Detail.Swipeable.UD" parent="Action">-->
+        <!--<item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.MainAction" parent="Paper">-->
+        <!--<item name="android:layout_gravity">bottom|end</item>-->
+        <!--<item name="android:layout_marginEnd">@dimen/fab_margin</item>-->
+        <!--<item name="android:layout_marginBottom">@dimen/fab_margin</item>-->
+        <!--<item name="android:src">@drawable/ic_share</item>-->
+        <!--<item name="fabSize">normal</item>-->
+        <!--<item name="pressedTranslationZ">@dimen/FAB_Pressed</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Body" parent="Empty">-->
+        <!--<item name="android:layout_marginLeft">@dimen/detail_inner_horiz_margin</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/detail_inner_horiz_margin</item>-->
+        <!--<item name="android:paddingTop">@dimen/detail_body_top_margin</item>-->
+        <!--<item name="android:paddingBottom">@dimen/detail_body_bottom_margin</item>-->
+        <!--<item name="android:textAppearance">@style/XYZ.AppCompat.TextAppearance.Article.Body</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Body.Paper" parent="Paper">-->
+        <!--<item name="android:orientation">vertical</item>-->
+        <!--<item name="android:maxWidth">@dimen/detail_card_max_width</item>-->
+        <!--<item name="android:background">#fff</item>-->
+        <!--<item name="android:layout_gravity">center_horizontal</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">-->
+        <!--<item name="layout_collapseMode">pin</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Toolbar.Paper" parent="Paper" />-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Toolbar.Image" parent="Empty">-->
+        <!--<item name="android:scaleType">centerCrop</item>-->
+        <!--<item name="layout_collapseMode">parallax</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Toolbar.Text.Primary" parent="Action">-->
+        <!--<item name="android:textAppearance">@style/XYZ.AppCompat.TextAppearance.Article.Detail.Primary</item>-->
+        <!--<item name="contentScrim">?attr/colorPrimary</item>-->
+        <!--<item name="expandedTitleMarginStart">16dp</item>-->
+        <!--<item name="expandedTitleMarginEnd">72dp</item>-->
+        <!--<item name="layout_scrollFlags">scroll|exitUntilCollapsed</item>-->
+    <!--</style>-->
+
+    <!--<style name="XYZ.AppCompat.Article.Detail.Toolbar.Text.Secondary" parent="Action">-->
+        <!--<item name="android:layout_gravity">bottom</item>-->
+        <!--<item name="android:layout_marginStart">16dp</item>-->
+        <!--<item name="android:paddingBottom">8dp</item>-->
+        <!--<item name="layout_collapseMode">parallax</item>-->
+        <!--<item name="layout_collapseParallaxMultiplier">0.07</item>-->
+        <!--<item name="android:textAppearance">@style/XYZ.AppCompat.TextAppearance.Article.Detail.Secondary</item>-->
+    <!--</style>-->
+
 
 </resources>
